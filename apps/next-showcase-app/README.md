@@ -81,7 +81,7 @@ Next.js automatically generates a sitemap based on the pages defined in your app
 
 Support for your preferred styling methods, including CSS Modules, Tailwind CSS, and CSS-in-JS
 
-## TODO accesibilidad
+## TODO: include accessibility section
 
 # Learn more
 
