@@ -1,0 +1,3 @@
+packages:
+  # all apps in subdirs
+  - 'apps/*'
