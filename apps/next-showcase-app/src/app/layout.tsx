@@ -23,6 +23,9 @@ export default function RootLayout({
             <li>
               <Link href="/portfolio">Portfolio</Link>
             </li>
+            <li>
+              <Link href="/event-loop">Block Event Loop</Link>
+            </li>
           </ul>
         </nav>
         <main className="container">

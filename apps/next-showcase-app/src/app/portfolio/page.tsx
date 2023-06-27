@@ -2,7 +2,7 @@ import Head from "next/head";
 import User from "./user";
 
 
-export default function FileBasedRouter() {
+export default function UserPorfolio() {
   return (
     <>
       <Head>

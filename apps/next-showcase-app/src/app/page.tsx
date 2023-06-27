@@ -1,13 +1,7 @@
-"use client";
-
 import styles from "./page.module.css";
 import NavigationButton from "./portfolio/navigation-button";
-import blockEventLoop from "../../blockEventLoop";
 
 export default function Home() {
-  const handleClick = () => {
-    blockEventLoop();
-  };
   return (
     <>
       <h1>
@@ -65,7 +59,6 @@ export default function Home() {
         </ul>
       </article>
       <NavigationButton routeName="Portfolio" routePath="/portfolio" />
-      <button onClick={handleClick}>Block Event Loop</button>
     </>
   );
 }
