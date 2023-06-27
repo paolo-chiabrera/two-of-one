@@ -83,7 +83,7 @@ Next.js automatically generates a sitemap based on the pages defined in your app
 
 Support for your preferred styling methods, including CSS Modules, Tailwind CSS, and CSS-in-JS
 
-### TODO: Accessibility
+### [Accessibility](https://nextjs.org/docs/architecture/accessibility)
 
 By default, Next.js includes eslint-plugin-jsx-a11y to help catch accessibility issues early and route announcer.
 
