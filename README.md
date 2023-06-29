@@ -12,7 +12,7 @@ This mono repo contains two local applications built with Next.js 13.4 and Nuxt.
 Make sure to install the dependencies and start the development server:
 
 ```bash
-npm install
+pnpm install
 pnpm next:dev
 
 or

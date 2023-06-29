@@ -19,7 +19,7 @@ To gain a deeper understanding of this Next.js application, we highly recommend 
 Make sure to install the dependencies and start the development server:
 
 ```bash
-npm install
+pnpm install
 pnpm dev
 
 ```
