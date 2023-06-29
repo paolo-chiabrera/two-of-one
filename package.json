@@ -8,6 +8,7 @@
   "description": "This repo contains two equal applications with different SSR frameworks",
   "scripts": {
     "next:dev": "pnpm --dir apps/next-showcase-app dev",
+    "nuxt:dev": "pnpm --dir apps/nuxt-showcase-app dev",
     "clean": "pnpm -r exec -- rm -rf node_modules && rm -rf node_modules"
   }
 }

@@ -6,7 +6,7 @@ export default function UserPorfolio() {
   return (
     <>
       <Head>
-      <title>My page title</title>
+      <title>Portfolio SEO Title</title>
       </Head>
       <User/>
     </>

@@ -1,4 +1,4 @@
-# Basic Next 13.4 Application!
+# Basic Next 13.4 application!
 
 This is a very simple application built with **Next.js 13.4**, aimed at showcasing the basic concepts and functionality of the framework. Please note that this readme provides a high-level overview and does not delve deeply into Next.js. For more in-depth knowledge and detailed documentation, it is recommended to refer to the official Next.js documentation.
 
@@ -16,11 +16,13 @@ To gain a deeper understanding of this Next.js application, we highly recommend 
 
 # Getting Started
 
-Run the development server:
+Make sure to install the dependencies and start the development server:
 
-`pnpm dev`
+```bash
+npm install
+pnpm dev
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
 
 # Next essentials
 
@@ -28,15 +30,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 A file-system based router built on top of Server Components that supports layouts, nested and dynamic routing, loading states, error handling, and more.
 
-> For example, the app portfolio directory has been created and handles the "/portfolio" URL.
+> e.g. The app portfolio directory has been created and handles the "/portfolio" URL.
 
 Next.js also offers the **Link component**, which provides client-side navigation between pages without a full refresh.
 
-> Check it in the app layout.
+> e.g. Check it in the app layout.
 
 Also, useRouter hook allows you to programmatically change routes inside Client Components.
 
-> Check the NavigationButton component
+> e.g. Check the NavigationButton component
 
 ### [Rendering](https://nextjs.org/docs/app/building-your-application/rendering)
 
@@ -48,13 +50,13 @@ Client-side and Server-side Rendering with Client and Server Components. Further
 
 Simplified data fetching with async/await support in React Components and the `fetch()`s API that aligns with React
 
-> The **User component** uses it to fetch the random user api endpoint
+> e.g. The **User component** uses it to fetch the random user api endpoint
 
 ### [Optimizations](https://nextjs.org/docs/app/building-your-application/optimizing)
 
 Image, Fonts, and Script Optimizations to improve your application's Core Web Vitals and User Experience. Image component comes with automatic image optimization for LCP.
 
-> The **User component** uses it with priority prop
+> e.g. The **User component** uses it with priority prop
 
 ### [Typescript](https://nextjs.org/docs/app/building-your-application/configuring/typescript)
 
@@ -70,7 +72,7 @@ Certain files follow specific naming conventions and serve particular purposes. 
 4. loading.js
 5. not-found.js.
 6. page.js
-7. route.js\*\*
+7. route.js
 
 ### [Metadata](https://nextjs.org/docs/app/api-reference/file-conventions/metadata)
 
