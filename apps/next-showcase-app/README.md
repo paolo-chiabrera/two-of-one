@@ -44,6 +44,9 @@ Also, useRouter hook allows you to programmatically change routes inside Client 
 
 Client-side and Server-side Rendering with Client and Server Components. Further optimized with Static and Dynamic Rendering on the server with Next.js. Streaming on Edge and Node.js runtimes.
 
+In Next.js, the lightweight Edge Runtime is a subset of available Node.js APIs. **The Edge Runtime** is ideal if we need to deliver dynamic, personalized content at low latency with small, simple functions.
+
+
 > The **User component** is server side component and displays the user random api data fetched. The Navigation Button is client side component ( by using 'use-client' word)
 
 ### [Data Fetching](https://nextjs.org/docs/app/building-your-application/data-fetching)
