@@ -26,11 +26,13 @@ pnpm nuxt:dev
 
 - React Server and Client Components
 - Simplified Data Fetching (no more getStaticProps or getServerSideProps). Next.js extends the fetch options object to allow each request to set its caching and revalidating.
+- Prefetching (static and dynamic)
 - Automatic code splitting
 - Server Actions and Turbopack
 - Edge and Node runtimes
 - New next/image, next/font and next/script
 - SEO support (new Metadata API): no need to use Head os Script
+- Improved support for TypeScript, with better type checking and more efficient compilation (custom TypeScript Plugin and type checker)
 - Bigger community
 
 ### Main cons
@@ -38,7 +40,6 @@ pnpm nuxt:dev
 - Next.js file-based system routing makes it not very flexible when it comes to routing.
 - Many third-party components will have to be wrapped in a component that will tell Next that it’s a client component.
 - Wrapping fetch in use is currently not recommended in Client Components (for now, if we need to fetch data they recommend using SWR or React Query).
-
 
 ## Nuxt.js
 
@@ -54,4 +55,5 @@ pnpm nuxt:dev
 - First-class TypeScript support
 
 ### Main cons
+
 - Small community behind it
