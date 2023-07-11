@@ -2,7 +2,7 @@ const blockEventLoop = () => {
   const largeObject = {};
 
   // Add a large number of properties to the object
-  for (let i = 0; i < 8e6; i++) {
+  for (let i = 0; i < 10e6; i++) {
     largeObject[`property${i}`] = i;
   }
 
