@@ -2,7 +2,6 @@
 
 This is a very simple application built with **Nuxt 3**, aimed at showcasing the basic concepts and functionality of the framework. Please note that this readme provides a high-level overview and does not delve deeply into Next.js. For more in-depth knowledge and detailed documentation, it is recommended to refer to the official [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction)
 
-
 To gain a deeper understanding of this Next.js application, we highly recommend **exploring this codebase**. The code contains some comments that explain the usage and provide additional insights into various aspects of the application's implementation.
 
 ## Setup
@@ -37,9 +36,7 @@ Nuxt uses a pages/ directory and naming conventions to directly create routes ma
 
 However, since it uses vue-router under the hood, **Nuxt offers you several ways to add custom routes in your project**.
 
-
 > e.g. Portfolio an event-loop routes were created following the pages structure
-
 
 ### [Rendering modes](https://nuxt.com/docs/guide/concepts/rendering)
 
@@ -58,7 +55,6 @@ Nitro also auto-generates types for API routes. Plus, Nuxt also generates types 
 Adding Nuxt modules is possible using nuxt.config.
 
 Nuxt modules are now build-time-only, and the buildModules property used in Nuxt 2 is deprecated in favor of modules.
-
 
 ### [Typescript](https://nuxt.com/docs/guide/concepts/typescript#auto-generated-types)
 
@@ -79,7 +75,20 @@ Nuxt generates the following files for IDE type support (and type checking): .nu
 
 you can access runtime app context within composables, components and plugins. (useNuxtApp()) In Nuxt 2 this was the Nuxt content
 
-
-### Nuxt Dev Tools
+## Nuxt Dev Tools
 
 Nuxt Dev Tools is enabled in this applications, after starting the dev server check it out
+
+## Blocking the Event Loop
+
+The blockEventLoop function initializes an empty object called largeObject.
+It enters a loop that iterates 10e6 (10 million) times.
+
+Inside the loop, it adds properties to the largeObject object using template literals. The properties are named property0, property1, property2, and so on, with corresponding values being the current iteration index.
+After the loop completes, the JSON.stringify() method is used to convert the largeObject into a JSON string.
+The JSON.parse() method is then used to parse the JSON string back into an object, resulting in the parsedObject.
+
+Finally, the code logs the message "Blocking complete" to the console.
+The purpose of this code appears to be to demonstrate how a large object can block the event loop, which is the main thread of execution in JavaScript. By performing a heavy computation, such as adding a large number of properties to an object and converting it to a JSON string, the event loop is occupied and cannot proceed with other tasks until the blocking operation is complete.
+
+During the execution of the blockEventLoop function, the event loop will be occupied with the computations, and it won't be able to process any other events or callbacks. This can result in a frozen or unresponsive state for our app until the loop finishes executing. This route was done for performance testing.
