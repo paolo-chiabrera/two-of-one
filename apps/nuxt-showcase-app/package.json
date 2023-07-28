@@ -2,16 +2,16 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
+    "build": "nuxt build",
     "dev": "nuxt dev",
-    "test": "vitest --watch"
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@types/node": "18",
-    "nuxt": "3.6.1"
-  },
-  "dependencies": {
-    "@nuxt/image": "0.7.1",
+    "@types/node": "18.17.0",
+    "nuxt": "3.6.5",
     "@picocss/pico": "1.5.10"
   }
 }

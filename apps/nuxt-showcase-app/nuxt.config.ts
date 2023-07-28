@@ -12,14 +12,14 @@ export default defineNuxtConfig({
     "/old-page": { redirect: "/new-page" },
   },
   typescript: {
-    strict: true
+    strict: true,
   },
   app: {
     head: {
-      charset: 'utf-8',
-      viewport: 'width=device-width, initial-scale=1',
-    }
-  }
+      charset: "utf-8",
+      viewport: "width=device-width, initial-scale=1",
+    },
+  },
 });
 
 //Using route rules we can define rules for a group of nuxt routes, change rendering mode or assign a cache strategy based on route
