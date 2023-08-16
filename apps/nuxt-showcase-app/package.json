@@ -6,12 +6,16 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "nuxt start"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@types/node": "18.17.0",
     "nuxt": "3.6.5",
     "@picocss/pico": "1.5.10"
+  },
+  "engines": {
+    "node": "16.x || 18.x"
   }
 }
