@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "loadtest:run": "locust -f loadtest.py"
   },
   "dependencies": {
     "@picocss/pico": "1.5.10",
