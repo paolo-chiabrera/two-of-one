@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -b -p 3000 --cors --no-dotfiles ./public"
+    "start": "http-server -b --cors --no-dotfiles ./public"
   },
   "keywords": [],
   "author": "",
