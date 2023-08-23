@@ -1,0 +1,110 @@
+{
+    "RS": {
+        "name": "Serbia"
+    },
+    "PR": {
+        "name": "Puerto Rico"
+    },
+    "PT": {
+        "name": "Portugal"
+    },
+    "BG": {
+        "name": "Bulgaria"
+    },
+    "HN": {
+        "name": "Honduras"
+    },
+    "HR": {
+        "name": "Croatia"
+    },
+    "DO": {
+        "name": "Dominican Republic"
+    },
+    "UA": {
+        "name": "Ukraine"
+    },
+    "UG": {
+        "name": "Uganda"
+    },
+    "MA": {
+        "name": "Morocco"
+    },
+    "SI": {
+        "name": "Slovenia"
+    },
+    "MD": {
+        "name": "Moldova, Republic of"
+    },
+    "BY": {
+        "name": "Belarus"
+    },
+    "ME": {
+        "name": "Montenegro"
+    },
+    "KE": {
+        "name": "Kenya"
+    },
+    "KG": {
+        "name": "Kyrgyzstan"
+    },
+    "GE": {
+        "name": "Georgia"
+    },
+    "EC": {
+        "name": "Ecuador"
+    },
+    "GH": {
+        "name": "Ghana"
+    },
+    "AD": {
+        "name": "Andorra"
+    },
+    "UY": {
+        "name": "Uruguay"
+    },
+    "CI": {
+        "name": "Côte d'Ivoire"
+    },
+    "IT": {
+        "name": "Italy"
+    },
+    "AM": {
+        "name": "Armenia"
+    },
+    "CO": {
+        "name": "Colombia"
+    },
+    "GT": {
+        "name": "Guatemala"
+    },
+    "ES": {
+        "name": "Spain"
+    },
+    "KZ": {
+        "name": "Kazakhstan"
+    },
+    "CR": {
+        "name": "Costa Rica"
+    },
+    "PA": {
+        "name": "Panama"
+    },
+    "PE": {
+        "name": "Peru"
+    },
+    "NG": {
+        "name": "Nigeria"
+    },
+    "TN": {
+        "name": "Tunisia"
+    },
+    "PL": {
+        "name": "Poland"
+    },
+    "RO": {
+        "name": "Romania"
+    },
+    "BA": {
+        "name": "Bosnia and Herzegovina"
+    }
+}
