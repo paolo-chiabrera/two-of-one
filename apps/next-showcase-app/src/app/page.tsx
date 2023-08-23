@@ -1,64 +1,38 @@
-import styles from "./page.module.css";
-import NavigationButton from "./portfolio/navigation-button";
+/* eslint-disable @next/next/no-img-element */
+import StoreTile from "./components/store";
+import FiltersSection from "./components/filters";
+import { RestaurantsReponse, Restaurant } from "./types/restaurants";
+export default async function Home() {
+  const restaurants: RestaurantsReponse = await getRestaurants();
 
-export default function Home() {
-  return (
-    <>
-      <h1>
-        Welcome to <span className={styles.title}>Next js!</span>
-      </h1>
-      <div className={styles.description}>
-        In this showcase application you will see the Next.js 13.4 js features
-        using random user generator api to display a portfolio
-      </div>
-      <article>
-        <p>Essentials</p>
-        <ul>
-          <li>
-            <small>
-              <strong>Routing:</strong> A file-system based router built on top
-              of Server Components that supports layouts, nested routing,
-              loading states, error handling, and more.
-            </small>
-          </li>
-          <li>
-            <small>
-              <strong>Rendering:</strong> Client-side and Server-side Rendering
-              with Client and Server Components. Further optimized with Static
-              and Dynamic Rendering on the server with Next.js. Streaming on
-              Edge and Node.js runtimes.
-            </small>
-          </li>
-          <li>
-            <small>
-              <strong>Data fetching:</strong> Simplified data fetching with
-              async/await support in React Components and the fetch()s API that
-              aligns with React and the Web Platform.
-            </small>
-          </li>
-          <li>
-            <small>
-              <strong>Styling:</strong> Support for your preferred styling
-              methods, including CSS Modules, Tailwind CSS, and CSS-in-JS
-            </small>
-          </li>
-          <li>
-            <small>
-              <strong>Optimization:</strong> Image, Fonts, and Script
-              Optimizations to improve your applications Core Web Vitals and
-              User Experience.
-            </small>
-          </li>
-          <li>
-            <small>
-              <strong>Typescript:</strong> Improved support for TypeScript, with
-              better type checking and more efficient compilation, as well as
-              custom TypeScript Plugin and type checker.
-            </small>
-          </li>
-        </ul>
-      </article>
-      <NavigationButton routeName="Portfolio" routePath="/portfolio" />
-    </>
+  const restaurantsList = restaurants.elements.filter(
+    ({ type, singleData }: Restaurant) =>
+      type === "SINGLE" && singleData?.type === "STORE" && singleData?.storeData
   );
+
+  return (
+    <section className="content">
+      <h2>Stores list</h2>
+      <FiltersSection />
+      <section className="stores" id="stores-list">
+        {restaurantsList.map((restaurant) => (
+          <StoreTile key={restaurant.groupData?.id} restaurant={restaurant} />
+        ))}
+      </section>
+    </section>
+  );
+}
+
+async function getRestaurants() {
+  const [restaurants] = await Promise.all([
+    fetch("https://comida.sillyapps.io/restaurants.json"),
+    fetch("https://comida.sillyapps.io/countries.json"),
+    fetch("https://comida.sillyapps.io/cities.json"),
+  ]);
+
+  if (!restaurants.ok) {
+    throw new Error("Failed to fetch data");
+  }
+
+  return restaurants.json();
 }
