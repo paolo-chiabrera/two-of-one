@@ -28,19 +28,18 @@ export default async function Home({
 }
 
 async function getRestaurants(searchParams: { [key: string]: string }) {
-  const keys = Object.keys(searchParams);
-  const cache = keys.length ? "no-store" : "force-cache";
+  const queryString = new URLSearchParams(searchParams);
+
+  const restaurantsUrl = `https://comida.sillyapps.io/restaurants.json?${queryString}`;
+  const countriesUrl = `https://comida.sillyapps.io/countries.json?${queryString}`;
+  const citiesUrl = `https://comida.sillyapps.io/cities.json?${queryString}`;
+
+  console.log(restaurantsUrl);
 
   const [restaurants] = await Promise.all([
-    fetch("https://comida.sillyapps.io/restaurants.json", {
-      cache,
-    }),
-    fetch("https://comida.sillyapps.io/countries.json", {
-      cache,
-    }),
-    fetch("https://comida.sillyapps.io/cities.json", {
-      cache,
-    }),
+    fetch(restaurantsUrl),
+    fetch(countriesUrl),
+    fetch(citiesUrl),
   ]);
 
   if (!restaurants.ok) {
