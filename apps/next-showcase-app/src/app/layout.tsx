@@ -1,6 +1,4 @@
-/* eslint-disable jsx-a11y/alt-text */
-/* eslint-disable @next/next/no-img-element */
-/* eslint-disable @next/next/no-css-tags */
+import Image from "next/image";
 import "./main.css";
 import "./variables.css";
 import "./app.css";
@@ -21,7 +19,12 @@ export default function RootLayout({
       </head>
       <body>
         <header className="header">
-          <img src="https://res.cloudinary.com/glovoapp/image/fetch/f_svg,q_auto:low/https://glovoapp.com/images/glovo-white.svg" />
+          <Image
+            width={115}
+            height={39}
+            alt=""
+            src="https://res.cloudinary.com/glovoapp/image/fetch/f_svg,q_auto:low/https://glovoapp.com/images/glovo-white.svg"
+          />
           <div className="menu-wrapper">
             <input id="menu-toggle" type="checkbox" />
             <label className="menu-button-container" htmlFor="menu-toggle">
@@ -43,17 +46,13 @@ export default function RootLayout({
           data-v-5e877c34=""
         >
           <div className="app-footer__container" data-v-42e6316f="">
-            <img
-              src="https://res.cloudinary.com/glovoapp/image/fetch/f_svg,q_auto:low/https://glovoapp.com/images/glovo-white.svg"
-              alt="Glovo"
-              data-test-id="footer-logo"
+            <Image
               width={115}
               height={39}
               loading="lazy"
               className="footer-logo"
-              data-v-e814c496=""
-              data-v-42e6316f=""
-              data-ol-has-click-handler=""
+              alt="Glovo"
+              src="https://res.cloudinary.com/glovoapp/image/fetch/f_svg,q_auto:low/https://glovoapp.com/images/glovo-white.svg"
             />
             <div className="app-footer__grid" data-v-42e6316f="">
               <div
@@ -251,13 +250,12 @@ export default function RootLayout({
                     data-v-75430ada=""
                     data-ol-has-click-handler=""
                   >
-                    <img
-                      alt="App Store"
+                    <Image
                       width={105}
                       height={35}
-                      className="footer-column-with-downloads__image"
-                      data-v-10af60be=""
-                      data-src="https://res.cloudinary.com/glovoapp/image/fetch/f_svg,c_fit,q_auto:low,h_35,w_105/https://glovoapp.com/images/app_store/download-button-new.svg"
+                      loading="lazy"
+                      className="footer-logo"
+                      alt="App Store"
                       src="https://res.cloudinary.com/glovoapp/image/fetch/f_svg,c_fit,q_auto:low,h_35,w_105/https://glovoapp.com/images/app_store/download-button-new.svg"
                     />
                   </a>
@@ -271,13 +269,13 @@ export default function RootLayout({
                     data-v-75430ada=""
                     data-ol-has-click-handler=""
                   >
-                    <img
-                      alt="Google play"
-                      width={112}
+                    <Image
+                      width={105}
                       height={35}
+                      loading="lazy"
                       className="footer-column-with-downloads__image"
-                      data-v-10af60be=""
-                      data-src="https://res.cloudinary.com/glovoapp/image/fetch/f_svg,c_fit,q_auto:low,h_35,w_112/https://glovoapp.com/images/google_play/download-button-new.svg"
+                      alt="Google play"
+                      data-rsc="https://res.cloudinary.com/glovoapp/image/fetch/f_svg,c_fit,q_auto:low,h_35,w_112/https://glovoapp.com/images/google_play/download-button-new.svg"
                       src="https://res.cloudinary.com/glovoapp/image/fetch/f_svg,c_fit,q_auto:low,h_35,w_112/https://glovoapp.com/images/google_play/download-button-new.svg"
                     />
                   </a>
