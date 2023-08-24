@@ -33,8 +33,6 @@ async function getRestaurants(queryString: URLSearchParams) {
   const countriesUrl = `https://comida.sillyapps.io/countries.json?${queryString}`;
   const citiesUrl = `https://comida.sillyapps.io/cities.json?${queryString}`;
 
-  console.log(restaurantsUrl);
-
   const [restaurants] = await Promise.all([
     fetch(restaurantsUrl),
     fetch(countriesUrl),
