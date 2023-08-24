@@ -73,7 +73,7 @@
                                                 class="footer-column-with-downloads__image" data-v-10af60be=""
                                                 data-src="https://res.cloudinary.com/glovoapp/image/fetch/f_svg,c_fit,q_auto:low,h_35,w_105/https://glovoapp.com/images/app_store/download-button-new.svg"
                                                 src="https://res.cloudinary.com/glovoapp/image/fetch/f_svg,c_fit,q_auto:low,h_35,w_105/https://glovoapp.com/images/app_store/download-button-new.svg"
-                                                lazy="loaded"></a><a data-test-id="footer-column-download-link"
+                                                loading="lazy"></a><a data-test-id="footer-column-download-link"
                                                                      target="_blank" rel="noopener"
                                                                      href="https://app.adjust.com/ule61n?redirect=http%3A%2F%2Fplay.google.com/store/apps/details?id=com.glovo&amp;hl=es&amp;adgroup=&amp;campaign=footer_es_es"
                                                                      class="footer-column-with-downloads__button"
@@ -85,7 +85,7 @@
                                                                                                        data-v-10af60be=""
                                                                                                        data-src="https://res.cloudinary.com/glovoapp/image/fetch/f_svg,c_fit,q_auto:low,h_35,w_112/https://glovoapp.com/images/google_play/download-button-new.svg"
                                                                                                        src="https://res.cloudinary.com/glovoapp/image/fetch/f_svg,c_fit,q_auto:low,h_35,w_112/https://glovoapp.com/images/google_play/download-button-new.svg"
-                                                                                                       lazy="loaded"></a>
+                                                                                                       loading="lazy"></a>
           </div> <!----> <a data-test-id="footer-link" href="https://glovoapp.com/docs/es/legal/terms/"
                             class="footer-column__link" data-v-75430ada="" data-ol-has-click-handler="">
           Condiciones de uso

@@ -3,7 +3,7 @@ export default defineNuxtConfig({
     devtools: {enabled: true},
     routeRules: {
         // Homepage pre-rendered at build time
-        "/": {prerender: true},
+        "/": {},
         // Porfolio page generated on-demand, revalidates in background
         "/portfolio/**": {swr: true},
         // Event loop page renders only on client-side
