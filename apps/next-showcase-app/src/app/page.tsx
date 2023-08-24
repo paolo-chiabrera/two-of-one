@@ -7,7 +7,8 @@ export default async function Home({
 }: {
   searchParams: { [key: string]: string };
 }) {
-  const restaurants: RestaurantsReponse = await getRestaurants(searchParams);
+  const queryString = new URLSearchParams(searchParams);
+  const restaurants: RestaurantsReponse = await getRestaurants(queryString);
 
   const restaurantsList = restaurants.elements.filter(
     ({ type, singleData }: Restaurant) =>
@@ -16,7 +17,7 @@ export default async function Home({
 
   return (
     <section className="content">
-      <h2>Stores list</h2>
+      <h2>Stores list {queryString}</h2>
       <FiltersSection />
       <section className="stores" id="stores-list">
         {restaurantsList.map((restaurant) => (
@@ -27,9 +28,7 @@ export default async function Home({
   );
 }
 
-async function getRestaurants(searchParams: { [key: string]: string }) {
-  const queryString = new URLSearchParams(searchParams);
-
+async function getRestaurants(queryString: URLSearchParams) {
   const restaurantsUrl = `https://comida.sillyapps.io/restaurants.json?${queryString}`;
   const countriesUrl = `https://comida.sillyapps.io/countries.json?${queryString}`;
   const citiesUrl = `https://comida.sillyapps.io/cities.json?${queryString}`;
