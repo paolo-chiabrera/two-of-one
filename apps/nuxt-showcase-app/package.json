@@ -10,7 +10,7 @@
     "start": "nuxt start",
     "loadtest:run": "locust -f loadtest.py"
   },
-  "devDependencies": {
+  "dependencies": {
     "@nuxt/devtools": "latest",
     "@picocss/pico": "1.5.10",
     "@types/node": "18.17.0",
