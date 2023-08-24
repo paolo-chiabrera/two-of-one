@@ -26,7 +26,3 @@ const restaurant = props.restaurant as Element
     </div>
   </div>
 </template>
-
-<style scoped lang="scss">
-
-</style>

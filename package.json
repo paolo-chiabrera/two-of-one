@@ -10,8 +10,5 @@
     "next:dev": "pnpm --dir apps/next-showcase-app dev",
     "nuxt:dev": "pnpm --dir apps/nuxt-showcase-app dev",
     "clean": "pnpm -r exec -- rm -rf node_modules && rm -rf node_modules"
-  },
-  "dependencies": {
-    "sass": "^1.66.1"
   }
 }
