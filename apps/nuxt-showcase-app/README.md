@@ -1,8 +1,7 @@
+
 # Basic Nuxt 3 application!
 
-This is a very simple application built with **Nuxt 3**, aimed at showcasing the basic concepts and functionality of the framework. Please note that this readme provides a high-level overview and does not delve deeply into Next.js. For more in-depth knowledge and detailed documentation, it is recommended to refer to the official [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction)
-
-To gain a deeper understanding of this Next.js application, we highly recommend **exploring this codebase**. The code contains some comments that explain the usage and provide additional insights into various aspects of the application's implementation.
+This is a very simple application built with **Nuxt 3**, aimed to do a performance test
 
 ## Setup
 

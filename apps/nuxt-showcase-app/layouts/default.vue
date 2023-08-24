@@ -7,6 +7,6 @@
     </section>
   </div>
 </template>
-<style lang="scss">
+<style>
 @import '@/assets/styles/app.css';
 </style>
