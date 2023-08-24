@@ -10,12 +10,17 @@
 # IDE's
 .vscode
 
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
 # local env files
 .env*.local
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# MacOS .DS_Store
-.DS_Store
