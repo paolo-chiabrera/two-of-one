@@ -12,9 +12,9 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@picocss/pico": "1.5.10",
     "@types/node": "18.17.0",
-    "nuxt": "3.6.5",
-    "@picocss/pico": "1.5.10"
+    "nuxt": "^3.6.5"
   },
   "engines": {
     "node": "16.x || 18.x"

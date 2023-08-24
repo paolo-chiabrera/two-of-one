@@ -1,25 +1,12 @@
 <template>
   <div>
-    <nav class="nav">
-      <ul>
-        <li>
-          <strong>Nuxt js</strong>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <NuxtLink href="/">Home Page</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink href="/portfolio">Portfolio</NuxtLink>
-        </li>
-      </ul>
-    </nav>
-    <slot />
+    <AppHeader/>
+    <section class="content">
+      <slot/>
+      <AppFooter/>
+    </section>
   </div>
 </template>
-<styles scoped lang="css">
-.nav {
-  margin: 0 20px;
-}
-</styles>
+<style lang="scss">
+@import '@/assets/styles/app.css';
+</style>
