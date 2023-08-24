@@ -25,9 +25,15 @@ export default async function Home() {
 
 async function getRestaurants() {
   const [restaurants] = await Promise.all([
-    fetch("https://comida.sillyapps.io/restaurants.json"),
-    fetch("https://comida.sillyapps.io/countries.json"),
-    fetch("https://comida.sillyapps.io/cities.json"),
+    fetch("https://comida.sillyapps.io/restaurants.json", {
+      cache: "no-store",
+    }),
+    fetch("https://comida.sillyapps.io/countries.json", {
+      cache: "no-store",
+    }),
+    fetch("https://comida.sillyapps.io/cities.json", {
+      cache: "no-store",
+    }),
   ]);
 
   if (!restaurants.ok) {
