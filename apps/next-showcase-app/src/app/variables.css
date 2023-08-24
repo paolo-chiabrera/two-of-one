@@ -1,7 +1,10 @@
 :root {
-  /* sizes*/
-  --header-size: 52px;
-  /* colors */
+	/* app specific */
+	--footer-wave-desktop: url('https://res.cloudinary.com/glovoapp/image/fetch/f_svg,q_auto:low/https://glovoapp.com/images/landing/footer-wave-desktop.svg');
+	--footer-wave-mobile: url('https://res.cloudinary.com/glovoapp/image/fetch/f_svg,q_auto:low/https://glovoapp.com/images/landing/footer-wave-mobile.svg');
+	/* sizes*/
+	--header-size: 52px;
+	/* colors */
 	--material-color-red: #f44336;
 	--material-color-red-50: #ffebee;
 	--material-color-red-100: #ffcdd2;
@@ -120,7 +123,7 @@
 	--material-color-cyan-200: #80deea;
 	--material-color-cyan-300: #4dd0e1;
 	--material-color-cyan-400: #26c6da;
-	--material-color-cyan-500: var(--material-color-cyan) ;
+	--material-color-cyan-500: var(--material-color-cyan);
 	--material-color-cyan-600: #00acc1;
 	--material-color-cyan-700: #0097a7;
 	--material-color-cyan-800: #00838f;
