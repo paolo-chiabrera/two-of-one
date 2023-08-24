@@ -34,9 +34,9 @@ async function getRestaurants(queryString: URLSearchParams) {
   const citiesUrl = `https://comida.sillyapps.io/cities.json?${queryString}`;
 
   const [restaurants] = await Promise.all([
-    fetch(restaurantsUrl),
-    fetch(countriesUrl),
-    fetch(citiesUrl),
+    fetch(restaurantsUrl, { cache: "no-store" }),
+    fetch(countriesUrl, { cache: "no-store" }),
+    fetch(citiesUrl, { cache: "no-store" }),
   ]);
 
   if (!restaurants.ok) {
