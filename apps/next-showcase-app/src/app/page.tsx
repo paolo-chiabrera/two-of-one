@@ -1,9 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
 import StoreTile from "./components/store";
 import FiltersSection from "./components/filters";
 import { RestaurantsReponse, Restaurant } from "./types/restaurants";
-export default async function Home() {
-  const restaurants: RestaurantsReponse = await getRestaurants();
+
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: { [key: string]: string };
+}) {
+  const restaurants: RestaurantsReponse = await getRestaurants(searchParams);
 
   const restaurantsList = restaurants.elements.filter(
     ({ type, singleData }: Restaurant) =>
@@ -23,16 +27,19 @@ export default async function Home() {
   );
 }
 
-async function getRestaurants() {
+async function getRestaurants(searchParams: { [key: string]: string }) {
+  const keys = Object.keys(searchParams);
+  const cache = keys.length ? "no-store" : "force-cache";
+
   const [restaurants] = await Promise.all([
     fetch("https://comida.sillyapps.io/restaurants.json", {
-      cache: "no-store",
+      cache,
     }),
     fetch("https://comida.sillyapps.io/countries.json", {
-      cache: "no-store",
+      cache,
     }),
     fetch("https://comida.sillyapps.io/cities.json", {
-      cache: "no-store",
+      cache,
     }),
   ]);
 
