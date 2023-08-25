@@ -4,7 +4,7 @@
 
 <template>
   <header class="header">
-    <img
+    <img loading="lazy" height="39"  width="115"
         src="https://res.cloudinary.com/glovoapp/image/fetch/f_svg,q_auto:low/https://glovoapp.com/images/glovo-white.svg">
     <div class="menu-wrapper">
       <input id="menu-toggle" type="checkbox"/>
