@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function FiltersSection() {
   return (
     <section className="filters">
@@ -38,7 +36,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob filter-option__blob--secondary"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/sorting/near_me_light"
                     width={22}
                     height={22}
@@ -73,7 +71,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob filter-option__blob--secondary"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/sorting/rating_light"
                     width={22}
                     height={22}
@@ -108,7 +106,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob filter-option__blob--secondary"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/sorting/delivery_fee_light"
                     width={22}
                     height={22}
@@ -163,7 +161,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/m91ga7z3haf0ghqvipk4"
                     width={22}
                     height={22}
@@ -198,7 +196,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/inwbt21iyiizggz1alhk"
                     width={22}
                     height={22}
@@ -233,7 +231,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/r5koryzkjme5ouxddp2c"
                     width={22}
                     height={22}
@@ -288,7 +286,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/so1z4pmoh8xjnnn7mvcx"
                     width={22}
                     height={22}
@@ -323,7 +321,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/zlxnvq0nujobiq2fpjb5"
                     width={22}
                     height={22}
@@ -358,7 +356,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/zuurobratonms7fd5cbn"
                     width={22}
                     height={22}
@@ -393,7 +391,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/vqtyl5rx1iscsii8sl6o"
                     width={22}
                     height={22}
@@ -428,7 +426,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/ye1bfswfbpzdjwrv9mvd"
                     width={22}
                     height={22}
@@ -463,7 +461,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/bikaamyuxhiyimo43ae4"
                     width={22}
                     height={22}
@@ -498,7 +496,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/gv094nglfxplpeblcar0"
                     width={22}
                     height={22}
@@ -533,7 +531,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/tvhfoysp3bp6xfgxpsn6"
                     width={22}
                     height={22}
@@ -568,7 +566,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/ttgdadieadpdsk6t9ach"
                     width={22}
                     height={22}
@@ -603,7 +601,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/hzgg3vnmaffyt9d0fkhx"
                     width={22}
                     height={22}
@@ -638,7 +636,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/i0azbzlpse0dtq1zxvbk"
                     width={22}
                     height={22}
@@ -673,7 +671,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/k555kpe5vjh9yc8kdncr"
                     width={22}
                     height={22}
@@ -708,7 +706,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/jqbnv1e8rgkvbllthwig"
                     width={22}
                     height={22}
@@ -743,7 +741,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/dsu6knoymqxjgsvycjlv"
                     width={22}
                     height={22}
@@ -778,7 +776,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/sc3e8ionxdhbqf3r7zfz"
                     width={22}
                     height={22}
@@ -813,7 +811,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/lnxmdsrf2xw5u5qrahpv"
                     width={22}
                     height={22}
@@ -848,7 +846,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/mtlzvyu0q834e3nucpyg"
                     width={22}
                     height={22}
@@ -883,7 +881,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/mos7cdyqo7wic3jcqsbu"
                     width={22}
                     height={22}
@@ -918,7 +916,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/jfnneic8qfdfhcsr9pjp"
                     width={22}
                     height={22}
@@ -953,7 +951,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/re6cgtlhjcrnqnma8put"
                     width={22}
                     height={22}
@@ -988,7 +986,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/lwc3zb4ucpdbosl6gzwz"
                     width={22}
                     height={22}
@@ -1023,7 +1021,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/jwdvk8qh8gyrn6aavkl4"
                     width={22}
                     height={22}
@@ -1058,7 +1056,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/zbkfokveyv3ldwqejzp9"
                     width={22}
                     height={22}
@@ -1093,7 +1091,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/xc03fwfottdfeahuffqw"
                     width={22}
                     height={22}
@@ -1128,7 +1126,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/w4yc0tyukig0ec588h69"
                     width={22}
                     height={22}
@@ -1163,7 +1161,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/mfkauhuhb9jesstlinxf"
                     width={22}
                     height={22}
@@ -1198,7 +1196,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/ddauzxk6izh84v7moa8a"
                     width={22}
                     height={22}
@@ -1233,7 +1231,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/ac6lwwdnizpce98di2gq"
                     width={22}
                     height={22}
@@ -1268,7 +1266,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/rwr4tfqs1uxtatfuguvb"
                     width={22}
                     height={22}
@@ -1303,7 +1301,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/xz8hwiqmpmixqgae5xai"
                     width={22}
                     height={22}
@@ -1338,7 +1336,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/i8abjcvwjxylemfkkznj"
                     width={22}
                     height={22}
@@ -1373,7 +1371,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/u6ftskcwobyfmkq41esf"
                     width={22}
                     height={22}
@@ -1408,7 +1406,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/hqjq2gdzwegbjfhuchb1"
                     width={22}
                     height={22}
@@ -1443,7 +1441,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/h92rfhojd717cud9nbum"
                     width={22}
                     height={22}
@@ -1478,7 +1476,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/x3en7tdjtrhbpaxaolcw"
                     width={22}
                     height={22}
@@ -1513,7 +1511,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/m6urjeiye5nwxfzjapsk"
                     width={22}
                     height={22}
@@ -1548,7 +1546,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/adjeaobxnkjjuroijyil"
                     width={22}
                     height={22}
@@ -1583,7 +1581,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/reeze0aztdnh4mzuzagw"
                     width={22}
                     height={22}
@@ -1618,7 +1616,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/ct6izfwmwd49li0gdpvo"
                     width={22}
                     height={22}
@@ -1670,7 +1668,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/filterImage"
                     width={22}
                     height={22}
@@ -1705,7 +1703,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/m91ga7z3haf0ghqvipk4"
                     width={22}
                     height={22}
@@ -1740,7 +1738,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/inwbt21iyiizggz1alhk"
                     width={22}
                     height={22}
@@ -1775,7 +1773,7 @@ export default function FiltersSection() {
                   data-test-id="filter-option-blob"
                   className="filter-option__blob"
                 >
-                  <Image
+                  <img
                     src="https://res.cloudinary.com/glovoapp/q_30,c_pad,f_auto,dpr_1.0,h_22,w_22,b_transparent/filters/r5koryzkjme5ouxddp2c"
                     width={22}
                     height={22}
