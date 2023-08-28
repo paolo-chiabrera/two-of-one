@@ -7,8 +7,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "start": "nuxt start",
-    "loadtest:run": "locust -f loadtest.py"
+    "start": "nuxt start"
   },
   "dependencies": {
     "@nuxt/devtools": "latest",
