@@ -1,3 +1,4 @@
+"use client";
 import "./main.css";
 import "./variables.css";
 import "./app.css";
