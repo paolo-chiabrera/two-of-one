@@ -3,10 +3,12 @@ import React from "react";
 import { Restaurant } from "../types/restaurants";
 
 export default function Store({ restaurant }: { restaurant: Restaurant }) {
+  const storeId = restaurant.singleData.storeData.store.id;
   return (
     <div
       className="store"
-      data-test-id="store"
+      key={storeId}
+      data-test-id={storeId}
       style={{
         backgroundImage: `url('https://res.cloudinary.com/glovoapp/q_30,f_auto,c_fill,dpr_1.0,h_156,w_351,b_transparent/${restaurant.singleData?.storeData?.store.imageId}')`,
       }}
