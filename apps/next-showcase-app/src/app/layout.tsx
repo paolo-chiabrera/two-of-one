@@ -1,4 +1,3 @@
-import Image from "next/image";
 import "./main.css";
 import "./variables.css";
 import "./app.css";
@@ -19,9 +18,10 @@ export default function RootLayout({
       </head>
       <body>
         <header className="header">
-          <Image
+          <img
             width={115}
             height={39}
+            loading="lazy"
             alt=""
             src="https://res.cloudinary.com/glovoapp/image/fetch/f_svg,q_auto:low/https://glovoapp.com/images/glovo-white.svg"
           />
@@ -46,7 +46,7 @@ export default function RootLayout({
           data-v-5e877c34=""
         >
           <div className="app-footer__container" data-v-42e6316f="">
-            <Image
+            <img
               width={115}
               height={39}
               loading="lazy"
@@ -250,7 +250,7 @@ export default function RootLayout({
                     data-v-75430ada=""
                     data-ol-has-click-handler=""
                   >
-                    <Image
+                    <img
                       width={105}
                       height={35}
                       loading="lazy"
@@ -269,7 +269,7 @@ export default function RootLayout({
                     data-v-75430ada=""
                     data-ol-has-click-handler=""
                   >
-                    <Image
+                    <img
                       width={105}
                       height={35}
                       loading="lazy"
