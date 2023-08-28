@@ -9,6 +9,8 @@
   "scripts": {
     "next:dev": "pnpm --dir apps/next-showcase-app dev",
     "nuxt:dev": "pnpm --dir apps/nuxt-showcase-app dev",
+    "loadtest:constant": "locust -f ./loadtest/constant.py",
+    "loadtest:double": "locust -f ./loadtest/double-wave.py",
     "clean": "pnpm -r exec -- rm -rf node_modules && rm -rf node_modules"
   }
 }
