@@ -1,6 +1,6 @@
-# Basic Next 13.3 application
+# Basic Next 13.4 application
 
-This is a very simple application built with **Next.js 13.3**, aimed to do a performance test
+This is a very simple application built with **Next.js 13.4**, aimed to do a performance test
 
 # Learn more
 

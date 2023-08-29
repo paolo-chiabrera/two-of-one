@@ -1,6 +1,8 @@
 {
   "name": "next-showcase-app",
+  "description": "This is a very simple application built with **Next.js 13.4**, aimed to do a performance test",
   "version": "0.1.0",
+  "license": "ISC",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,17 +11,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.5.7",
+    "@types/node": "20.5.3",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
-    "eslint": "8.48.0",
-    "eslint-config-next": "13.3",
-    "next": "13.3",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.19",
+    "next": "13.4.20-canary.9",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.2.2"
+    "typescript": "5.1.6"
   },
   "engines": {
-    "node": "16.x || 18.x"
-  }
+    "node": "18.x || 20.x"
+  },
+  "devDependencies": {}
 }
