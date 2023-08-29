@@ -1,24 +1,31 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Restaurant } from "@/types/restaurants";
 import React from "react";
+import { Restaurant } from "../types/restaurants";
 
-export default function Store({ restaurant }: { restaurant: Restaurant }) {
+export default function Store({
+  restaurant,
+  index,
+}: {
+  restaurant: Restaurant;
+  index: number;
+}) {
   const storeId = restaurant.singleData.storeData.store.id;
   return (
     <div
       className="store"
-      key={storeId}
+      key={index}
       data-test-id={storeId}
       style={{
         backgroundImage: `url('https://res.cloudinary.com/glovoapp/q_30,f_auto,c_fill,dpr_1.0,h_156,w_351,b_transparent/${restaurant.singleData?.storeData?.store.imageId}')`,
       }}
     >
+      <div>INDEX {index}</div>
       <div className="title" data-test-id="title">
         {restaurant.singleData.storeData.store.name}
       </div>
       <div className="tags-row" data-test-id="tags-row">
-        {restaurant.singleData.storeData.filters.map((filter: any) => (
-          <div className="tag" key={filter.id}>
+        {restaurant.singleData.storeData.filters.map((filter: any, index) => (
+          <div className="tag" key={index}>
             {filter.name}
           </div>
         ))}
