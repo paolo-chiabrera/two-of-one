@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
+import { Restaurant } from "@/types/restaurants";
 import React from "react";
-import { Restaurant } from "../types/restaurants";
 
 export default function Store({ restaurant }: { restaurant: Restaurant }) {
   const storeId = restaurant.singleData.storeData.store.id;
