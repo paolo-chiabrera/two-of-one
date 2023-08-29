@@ -1,14 +1,13 @@
 import math
 from locust import HttpUser, TaskSet, task, constant
 from locust import LoadTestShape
-import time 
-
+import uuid
 
 class UserTasks(TaskSet):
     @task
     def my_task(self):
-        curr_time = round(time.time()*1000)
-        self.client.get(f'/?id={curr_time}')
+       id = uuid.uuid4()
+       self.client.get(f'/?id={id}')
 
 class WebsiteUser(HttpUser):
     wait_time = constant(1)
@@ -17,10 +16,10 @@ class WebsiteUser(HttpUser):
 
 class DoubleWave(LoadTestShape):
 
-    min_users = 20
-    peak_one_users = 60
+    min_users = 10
+    peak_one_users = 20
     peak_two_users = 40
-    time_limit = 300
+    time_limit = 600
 
     def tick(self):
         run_time = round(self.get_run_time())

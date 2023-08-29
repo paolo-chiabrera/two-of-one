@@ -1,14 +1,14 @@
 from locust import HttpUser, TaskSet, task
 from locust import LoadTestShape, constant_pacing
-import time
+import uuid
 
 
 class UserTasks(TaskSet):
     @task
     def my_task(self):
-        curr_time = round(time.time()*1000)
-        self.client.get(f'/?id={curr_time}')
+        id = uuid.uuid4()
+        self.client.get(f'/?id={id}')
 
 class WebsiteUser(HttpUser):
-    wait_time = constant_pacing(6)
+    wait_time = constant_pacing(1)
     tasks = [UserTasks]
