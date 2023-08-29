@@ -19,7 +19,6 @@ export default function Store({
         backgroundImage: `url('https://res.cloudinary.com/glovoapp/q_30,f_auto,c_fill,dpr_1.0,h_156,w_351,b_transparent/${restaurant.singleData?.storeData?.store.imageId}')`,
       }}
     >
-      <div>INDEX {index}</div>
       <div className="title" data-test-id="title">
         {restaurant.singleData.storeData.store.name}
       </div>
